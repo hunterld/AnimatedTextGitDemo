@@ -8,7 +8,7 @@ function randomRGB() {
 //To change each letter independently
 const letters = document.querySelector('.letter');
 const interValId = setInterval(function () {
-    for (let letter of letter) {
+    for (let letter of letters) {
         letter.style.color = randomRGB()
     }
-}, 2000)
+}, 1000)
